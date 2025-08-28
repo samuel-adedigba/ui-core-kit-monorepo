@@ -70,8 +70,8 @@ _More components will be added by the community!_
 Clone the repo:
 
 ```bash
-git clone https://github.com/<your-username>/ui-core-kit.git
-cd ui-core-kit
+git clone https://github.com/samuel-adedigba/ui-core-kit-monorepo.git
+cd ui-core-kit-monorepo
 npm install
 ```
 

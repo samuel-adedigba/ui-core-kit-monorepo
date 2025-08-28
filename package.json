@@ -1,5 +1,5 @@
 {
-  "name": "ui-core-kit-library",
+  "name": "ui-core-kit-monorepo",
   "private": true,
   "workspaces": [
     "packages/ui-core-kit",
