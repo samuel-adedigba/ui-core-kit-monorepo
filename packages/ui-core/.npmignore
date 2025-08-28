@@ -1,0 +1,11 @@
+node_modules
+dist/*.map
+src
+tests
+examples
+.gitignore
+.eslintrc.js
+tailwind.config.cjs
+safelist.txt
+generator.js
+tailwind-safelist-plugin.js
