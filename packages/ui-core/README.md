@@ -1,4 +1,4 @@
-# Blaze React UI Core
+# React UI Core Kit
 
 A lightweight, reusable, and flexible **React UI component library** built with **TypeScript** and **TailwindCSS**.  
 It is designed for modern applications where **consistency, speed, and reusability** matter.

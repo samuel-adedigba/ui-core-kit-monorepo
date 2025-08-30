@@ -41,7 +41,7 @@ export default defineConfig({
   assetsInclude: ['**/*.md'],
   resolve: {
     alias: {
-      'ui-core-kit': path.resolve(__dirname, '../ui-core-kit/src/index.ts')
+      'ui-core-kit': path.resolve(__dirname, '../ui-core/src/index.ts')
     },
   },
   build: {
@@ -60,7 +60,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           'vendor-react': ['react', 'react-dom', 'react/jsx-runtime', 'react-is', 'scheduler'],
-          'vendor-redux': ['react-redux', '@reduxjs/toolkit'],
+          // 'vendor-redux': ['react-redux', '@reduxjs/toolkit'],
           'vendor-router': ['react-router-dom'],
           'vendor-formik': ['formik'],
           'vendor-ui': ['@tanstack/react-table', 'react-beautiful-dnd', 'react-modal', 'react-select'],
