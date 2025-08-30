@@ -6,9 +6,9 @@
     "packages/demo"
   ],
   "scripts": {
-    "start": "vite",
-    "build": "yarn workspace ui-core-kit run build",
-    "preview": "vite preview",
+    "start": "yarn workspace demo run dev",
+    "build": "yarn workspace demo run build",
+    "preview": "yarn workspace demo preview",
     "lint": "yarn workspaces run lint",
     "lint:fix": "yarn workspaces lint -- --fix",
     "prettier": "npx prettier src --check",
